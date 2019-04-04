@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>JS Reference VS Copy</title>
-</head>
-<body>
-
-  <script>
-    // start with strings, numbers and booleans
+// start with strings, numbers and booleans
     // let age = 100;
     // let age2 = age;
     // console.log(age, age2);
@@ -91,9 +82,3 @@
     const dev = Object.assign({}, wes);
 
     const dev2 = JSON.parse(JSON.stringify(wes));
-
-
-  </script>
-
-</body>
-</html>
