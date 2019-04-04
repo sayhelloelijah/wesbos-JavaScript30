@@ -1,4 +1,5 @@
-const msg = new SpeechSynthesisUtterance();
+document.addEventListener('DOMContentLoaded', () => { 
+  const msg = new SpeechSynthesisUtterance();
   let voices = [];
   const voicesDropdown = document.querySelector('[name="voice"]');
   const options = document.querySelectorAll('[type="range"], [name="text"]');
@@ -32,3 +33,4 @@ const msg = new SpeechSynthesisUtterance();
   options.forEach(option => option.addEventListener('change', setOption));
   speakButton.addEventListener('click', toggle);
   stopButton.addEventListener('click', () => toggle(false));
+});
