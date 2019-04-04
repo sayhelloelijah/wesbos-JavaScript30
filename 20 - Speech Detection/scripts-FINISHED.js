@@ -25,4 +25,4 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 
   recognition.addEventListener('end', recognition.start);
 
-  recognition.start();a
+  recognition.start();
